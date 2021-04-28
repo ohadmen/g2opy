@@ -6,9 +6,9 @@ include_directories(${CSPARSE_INCLUDE_DIR})
 
 
 # pybind11 (version 2.2.1)
-LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/EXTERNAL/pybind11/tools)
-include_directories(${PROJECT_SOURCE_DIR}/EXTERNAL/pybind11/include)
-include(pybind11Tools)
+#LIST(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/EXTERNAL/pybind11/tools)
+#include_directories(${PROJECT_SOURCE_DIR}/EXTERNAL/pybind11/include)
+#include(pybind11Tools)
 
 
 pybind11_add_module(g2o g2o.cpp)

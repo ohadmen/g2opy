@@ -3,6 +3,8 @@ SET(CMAKE_LEGACY_CYGWIN_WIN32 0)
 
 PROJECT(g2o)
 
+find_package(Python3 3.6 EXACT COMPONENTS Interpreter Development REQUIRED)
+
 # The library prefix
 SET(LIB_PREFIX g2o_)
 
